@@ -19,7 +19,7 @@ class ApplicationState:
             ApplicationState.instance = ApplicationState()
         return ApplicationState.instance
     
-appState1 = ApplicationState.getAppState()
+appState1 = ApplicationState.getAppState()j
 print(appState1.isLoggedIn)
 
 appState2 = ApplicationState.getAppState()
